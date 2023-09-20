@@ -1,0 +1,185 @@
+[
+    {
+        "model": "sites.site",
+        "pk": 1,
+        "fields": {
+            "domain": "lithan.com",
+            "name": "lithan.com"
+        }
+    },
+    {
+        "model": "sites.site",
+        "pk": 2,
+        "fields": {
+            "domain": "windowsapp.com",
+            "name": "windowsapp.com"
+        }
+    },
+    {
+        "model": "users.grades",
+        "pk": 1,
+        "fields": {
+            "name": "Grade 5"
+        }
+    },
+    {
+        "model": "users.grades",
+        "pk": 2,
+        "fields": {
+            "name": "Grade 6"
+        }
+    },
+    {
+        "model": "users.grades",
+        "pk": 3,
+        "fields": {
+            "name": "Grade 7"
+        }
+    },
+    {
+        "model": "users.streams",
+        "pk": 1,
+        "fields": {
+            "name": "Physics"
+        }
+    },
+    {
+        "model": "users.streams",
+        "pk": 2,
+        "fields": {
+            "name": "Chemistry"
+        }
+    },
+    {
+        "model": "users.streams",
+        "pk": 3,
+        "fields": {
+            "name": "Biology"
+        }
+    },
+    {
+        "model": "users.customusers",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$vEzMByqR3sAnY8xFkMYxdq$TPJ2VfEoEhLYWDRi9TTRzxnSmJojk5hPsXgeELk7SJY=",
+            "last_login": "2023-09-20T03:48:15.915Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@admin.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-09-20T03:44:17.462Z",
+            "designation": null,
+            "groups": [],
+            "user_permissions": [],
+            "grades": [],
+            "streams": []
+        }
+    },
+    {
+        "model": "users.customusers",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$vtBUfsmwhwmKORiN83qeGA$8+Xxnek0TpCPs/TCRjPMw0motB0wta+IAPxornFUlQw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "zytyv",
+            "first_name": "",
+            "last_name": "",
+            "email": "juwasejyb@mailinator.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-09-20T05:21:24Z",
+            "designation": null,
+            "groups": [],
+            "user_permissions": [],
+            "grades": [
+                2
+            ],
+            "streams": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "users.customusers",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$oQ1xFMq35rlroZ00gdl0hj$JxQJLdj2XAPLy5w+RYFcPBdVCPna9tRBKBW5tfzSrSg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lajyhec",
+            "first_name": "",
+            "last_name": "",
+            "email": "qikomysot@mailinator.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-09-20T05:24:05.095Z",
+            "designation": null,
+            "groups": [],
+            "user_permissions": [],
+            "grades": [
+                2
+            ],
+            "streams": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "users.fields",
+        "pk": 1,
+        "fields": {
+            "field_name": "Grades",
+            "is_deleted": false
+        }
+    },
+    {
+        "model": "users.fields",
+        "pk": 2,
+        "fields": {
+            "field_name": "Streams",
+            "is_deleted": false
+        }
+    },
+    {
+        "model": "users.fields",
+        "pk": 3,
+        "fields": {
+            "field_name": "designation",
+            "is_deleted": false
+        }
+    },
+    {
+        "model": "users.mappedfields",
+        "pk": 1,
+        "fields": {
+            "site": 2,
+            "field": 1,
+            "is_enabled": true,
+            "is_required": true
+        }
+    },
+    {
+        "model": "users.mappedfields",
+        "pk": 2,
+        "fields": {
+            "site": 2,
+            "field": 2,
+            "is_enabled": true,
+            "is_required": true
+        }
+    },
+    {
+        "model": "users.mappedfields",
+        "pk": 3,
+        "fields": {
+            "site": 2,
+            "field": 3,
+            "is_enabled": true,
+            "is_required": false
+        }
+    }
+]
